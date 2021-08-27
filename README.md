@@ -1,27 +1,61 @@
 # Githubsearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+## Author
 
-## Development server
+ Kolem Edwin
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ ## Description
+This is an Angular CLI application that allows a user to enter a Github username into a form, and search. version 11.2.6.
 
-## Code scaffolding
+## screenshot
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Live page
+https://github.com/edwinkipchumba/github-search
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## BDD
 
-## Running end-to-end tests
+* Search for a github username.
+* Enter the username of the github.
+* displays the name, username and number of repositories. 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Installation/Setup instruction
 
-## Further help
+* Open Terminal {Ctrl+Alt+T}
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+$git clone https://github.com/edwinkipchumba/github-search
+```
+* cd Githubsearch
+
+* open based on the text editor you have.
+
+* Run ng serve.
+
+* Navigate to http://localhost:4200/.
+
+* npm install && ng serve
+
+## Technology ussed
+
+* Angular CLI
+* HTML5
+* CSS
+* Bootstrap
+* Typescript
+* Generated with Angular CLI version 11.2.6.
+
+## Known Bugs
+
+If you find a bug, kindly feel free to comment an issue here and inlcude their corresponding results.
+
+## Contact  Information
+
+ Feel free to contact me incase of any issue or questions, ideas and concern towards the same.
+ Contact Number:+254728357619
+ E-Mail: edwinkolem5@gmail.com.
+
+## License
+[MIT License](https://choosealicense.com/licenses/mit/) ©2021, Kolem Edwin
