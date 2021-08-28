@@ -16,7 +16,7 @@ import { UsersComponent } from './users/users.component';
     NotFoundComponent,
     HoverDirective,
     DateCountPipe,
-    UsersComponent
+    UsersComponent,
   ],
   imports: [
     BrowserModule,

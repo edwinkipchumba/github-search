@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { users } from '../class/users';
-import { GithubService } from '../service/githubService';
+import { GithubService } from '../service/github.service';
 import { Router } from '@angular/router'
 
 @Component({
@@ -24,7 +24,7 @@ export class UsersComponent implements OnInit {
     this.showRepo=!this.showRepo;
     this.hideUser=!this.hideUser;
   }
-  constructor(public dataService:GithubService, private route:Router){ 
+  constructor(public dataService:GithubService, private router:Router){ 
 
   }
   
