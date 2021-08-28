@@ -3,3 +3,9 @@
     font-size: xx-large;
     font-family: sans-seriffi
 }
+.nav-item a{
+    color: white;
+    padding-left: 200px;
+    padding: 10px;
+
+}
