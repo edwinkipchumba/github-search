@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HoverDirective } from './directive/hover.directive';
 import { DateCountPipe } from './pipe/date-count.pipe';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DateCountPipe } from './pipe/date-count.pipe';
     HeaderComponent,
     NotFoundComponent,
     HoverDirective,
-    DateCountPipe
+    DateCountPipe,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
