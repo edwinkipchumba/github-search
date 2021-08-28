@@ -4,5 +4,7 @@ export class Users {
     public name: string, public html_url:string,
     public location:string, public public_repos:number,
     public followers:number, public following:number,
-    public updated_at:Date,){}
+    public updated_at:Date,){
+        
+    }
 }
