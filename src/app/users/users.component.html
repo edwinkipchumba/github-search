@@ -1,4 +1,6 @@
 <div class="container">
+
+    <!-- form search -->
     <form class="form-inline form-group">
         <input type="text" class="form-control mr-2" name="search" placeholder="all of github" id="search" [(ngModel)]="username">
         <button type="submit" class="btn btn-outline-success btn-submit" (click)="findProfile()">Search</button>
@@ -12,6 +14,25 @@
                 <h3 appHover class="text-success">{{profile.login}}</h3>
             </a>
             <span>{{profile.bio}}</span>
+        </div>
+
+        <!-- hide user -->
+        <div class="row" [hidden]="hideUser">
+            <div class="col-sm-6">
+                <img class="card-img-top img-thumbnail" src="{{profile.avatar_url}}" alt="user-profile">
+            </div>
+
+            <!-- display right -->
+            <div class="col-sm-6">
+                <ul id="labels" class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <span class="badge badge-light mr-2">FOLLOWERS: {{profile.followers}}</span>
+                        <span class="badge badge-light mr-2">FOLLOWING: {{profile.following}}</span>
+                        <span class="badge badge-light mr-2">PUBLIC REPOS: {{profile.public_repos}}</span>
+                        <span class="badge badge-light mr-2">Profile.public_gits</span>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
