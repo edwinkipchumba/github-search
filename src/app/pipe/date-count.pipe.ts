@@ -7,27 +7,27 @@ export class DateCountPipe implements PipeTransform {
 
   transform(value: any): any {
     if (value){
-      const seconds = math.floor((+new Date() - +new Date(value))/1000);
+      const seconds = Math.floor((+new Date() - +new Date(value))/1000);
       if (seconds<29)
       return 'just now';
       const intervals = {
         'year':31536000,
         'month':2592000,
         'week':604800,
-        'day':86400;
+        'day':86400,
         'hour':3600,
         'minute':60,
         'second':1
       };
 
-      let couter;
+      let counter;
       for(const i in intervals){
-        couter = Math.floor(seconds / intervals[i]);
-        if (couter>0)
-        if (couter===1){
+        counter = Math.floor(seconds / intervals[i]);
+        if (counter>0)
+        if (counter===1){
           return counter + ' ' + i + 'ago'
         } else {
-          return counter + ' ' + i 's ago';
+          return counter + ' ' + i +'s ago';
         }
       }
     }
