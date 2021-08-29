@@ -7,11 +7,6 @@
  ## Description
 This is an Angular CLI application that allows a user to enter a Github username into a form, and search. version 11.2.6.
 
-## screenshot  
-
-
-
-
 ## Live page
 https://github.com/edwinkipchumba/github-search
 
