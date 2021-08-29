@@ -4,6 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { GithubService } from './service/github.service';
 
+// add loader to the browser
+import { NgProgressModule } from '@ngx-progressbar/core';
+import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -25,7 +28,10 @@ import { UsersComponent } from './users/users.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    // loader
+    NgProgressModule.forRoot(),
+    NgProgressHttpClientModule
   ],
   providers: [GithubService],
   bootstrap: [AppComponent]
