@@ -12,3 +12,13 @@
     display: flex;
     margin: 4%;
 }
+.list-group-item, .card{
+ background: rgba(255, 255, 255, 0.2);
+}
+.card-img-top{
+    width:60%;
+}
+
+.btn-success{
+    float:right;
+}
