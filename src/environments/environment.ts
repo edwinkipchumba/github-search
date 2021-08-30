@@ -5,7 +5,7 @@
 
 export const environment = {
   production: false,
-  api_key: "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",
+  api_key: "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",
   
   
   

@@ -36,4 +36,8 @@ import { UsersComponent } from './users/users.component';
   providers: [GithubService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  // devServer: {
+  //   allowedHosts: 'auto',
+  // };
+}
