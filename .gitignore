@@ -46,4 +46,4 @@ testem.log
 Thumbs.db
 
 # githubsearch
-src/envinronment.ts
+/src/environment.ts
